@@ -1,0 +1,3 @@
+klucz1: abcdef 
+klucz2: ghijkl 
+klucz3: mnopqr
