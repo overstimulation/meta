@@ -12,7 +12,7 @@ class Account:
             if key in self._allowed_args:
                 setattr(self, key, value)
             else:
-                raise Exception(f"{key} nie znajduje sie w liscie dozwolonych argumentow")
+                raise ArgumentError(None, f"{key} nie znajduje sie w liscie dozwolonych argumentow")
 
     def __str__(self):
         arguments = f"\nlogin: {self.login}, haslo: {self.password}"
